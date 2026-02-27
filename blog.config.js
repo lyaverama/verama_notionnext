@@ -16,9 +16,9 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'Vera Ma', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || 'AINA创始人', // 作者简介
+  BIO: process.env.NEXT_PUBLIC_BIO || 'AI Native Authority (AINA)方法论提出者', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://verama.pro', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'AINA, AI Authority', // 网站关键词 英文逗号隔开
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'AINA, AI原生权威, AI Native Authority, AI时代个人品牌, Vera Ma', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXX
   BEI_AN_LINK: process.env.NEXT_PUBLIC_BEI_AN_LINK || 'https://beian.miit.gov.cn/', // 备案查询链接，如果用了萌备等备案请在这里填写
